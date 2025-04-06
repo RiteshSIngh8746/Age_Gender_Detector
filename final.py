@@ -15,7 +15,7 @@ class LoginPage:
         self.win.geometry("1550x950+0+0")
         self.win.title("Age and Gender Prediction")
 
-        self.bg_image = Image.open(r"C:\\Users\\Sameer Singh\\Desktop\\xyz\\pick.webp")  
+        self.bg_image = Image.open(r"C:\\Users\\Ritesh Singh\\Desktop\\xyz\\pick.webp")  
         self.bg_image = self.bg_image.resize((1250, 650), Image.Resampling.LANCZOS)  
         self.bg_image = ImageTk.PhotoImage(self.bg_image)
 
