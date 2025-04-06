@@ -1,3 +1,5 @@
+
+
 node {
   name: "data"
   op: "Placeholder"
@@ -7,7 +9,7 @@ node {
       type: DT_FLOAT
     }
   }
-}
+} 
 node {
   name: "data_bn/FusedBatchNorm"
   op: "FusedBatchNorm"
